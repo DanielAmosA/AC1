@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ServerSide1",
+    "\\ServerSide1\\Controllers",
+    "\\ServerSide1\\Models",
+    "\\ServerSide1\\Services"
+  ],
+  "SelectedNode": "\\ServerSide1\\Models\\IGameService.cs",
+  "PreviewInSolutionExplorer": false
+}

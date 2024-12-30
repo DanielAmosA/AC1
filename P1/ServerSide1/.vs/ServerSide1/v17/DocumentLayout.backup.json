@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\controllers\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\controllers\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\contracts\\igamecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\contracts\\igamecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\dal\\gamesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\dal\\gamesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\bl\\gamesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\bl\\gamesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\orc\\gamesorcwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\orc\\gamesorcwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\orc\\gamesorcread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\orc\\gamesorcread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\helpers\\db\\dbconfigreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\helpers\\db\\dbconfigreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\helpers\\db\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\helpers\\db\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\helpers\\service\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\helpers\\service\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\dbconfig.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\dbconfig.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\dalinterfaces\\igamesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\dalinterfaces\\igamesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\blinterfaces\\igamesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\blinterfaces\\igamesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\orcinterfaces\\igamesorcwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\orcinterfaces\\igamesorcwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\orcinterfaces\\igamesorcread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\orcinterfaces\\igamesorcread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\models\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\models\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|c:\\users\\p0034732\\desktop\\projects\\learn tesdetdad\\p1\\serverside1\\serverside1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB9036B-3849-4758-BB38-9FE4396721FD}|ServerSide1\\ServerSide1.csproj|solutionrelative:serverside1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 521,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Controllers\\Game.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Controllers\\Game.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Controllers\\Game.cs",
+              "RelativeToolTip": "ServerSide1\\Controllers\\Game.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T13:24:03.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GamesOrcWrite.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Orc\\GamesOrcWrite.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Orc\\GamesOrcWrite.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Orc\\GamesOrcWrite.cs",
+              "RelativeToolTip": "ServerSide1\\Orc\\GamesOrcWrite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:44:42.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GamesBL.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\BL\\GamesBL.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\BL\\GamesBL.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\BL\\GamesBL.cs",
+              "RelativeToolTip": "ServerSide1\\BL\\GamesBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:48:04.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamesDAL.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\DAL\\GamesDAL.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\DAL\\GamesDAL.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\DAL\\GamesDAL.cs",
+              "RelativeToolTip": "ServerSide1\\DAL\\GamesDAL.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:49:26.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGameContract.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Contracts\\IGameContract.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Contracts\\IGameContract.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Contracts\\IGameContract.cs",
+              "RelativeToolTip": "ServerSide1\\Contracts\\IGameContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:40:53.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Program.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Program.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Program.cs",
+              "RelativeToolTip": "ServerSide1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:07:03.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GamesOrcRead.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Orc\\GamesOrcRead.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Orc\\GamesOrcRead.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Orc\\GamesOrcRead.cs",
+              "RelativeToolTip": "ServerSide1\\Orc\\GamesOrcRead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:44:26.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DbConfigReader.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Helpers\\DB\\DbConfigReader.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Helpers\\DB\\DbConfigReader.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Helpers\\DB\\DbConfigReader.cs",
+              "RelativeToolTip": "ServerSide1\\Helpers\\DB\\DbConfigReader.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:52:21.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Helpers\\DB\\DataHelper.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Helpers\\DB\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Helpers\\DB\\DataHelper.cs",
+              "RelativeToolTip": "ServerSide1\\Helpers\\DB\\DataHelper.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAAMgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:53:05.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppService.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Helpers\\Service\\AppService.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Helpers\\Service\\AppService.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Helpers\\Service\\AppService.cs",
+              "RelativeToolTip": "ServerSide1\\Helpers\\Service\\AppService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:55:27.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbConfig.xml",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\DbConfig.xml",
+              "RelativeDocumentMoniker": "ServerSide1\\DbConfig.xml",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\DbConfig.xml",
+              "RelativeToolTip": "ServerSide1\\DbConfig.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-30T14:54:04.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGamesDAL.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\DALInterfaces\\IGamesDAL.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\DALInterfaces\\IGamesDAL.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\DALInterfaces\\IGamesDAL.cs",
+              "RelativeToolTip": "ServerSide1\\DALInterfaces\\IGamesDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:49:44.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IGamesBL.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\BLInterfaces\\IGamesBL.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\BLInterfaces\\IGamesBL.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\BLInterfaces\\IGamesBL.cs",
+              "RelativeToolTip": "ServerSide1\\BLInterfaces\\IGamesBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:48:20.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGamesOrcWrite.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\OrcInterfaces\\IGamesOrcWrite.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\OrcInterfaces\\IGamesOrcWrite.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\OrcInterfaces\\IGamesOrcWrite.cs",
+              "RelativeToolTip": "ServerSide1\\OrcInterfaces\\IGamesOrcWrite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:45:32.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGamesOrcRead.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\OrcInterfaces\\IGamesOrcRead.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\OrcInterfaces\\IGamesOrcRead.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\OrcInterfaces\\IGamesOrcRead.cs",
+              "RelativeToolTip": "ServerSide1\\OrcInterfaces\\IGamesOrcRead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:45:18.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\appsettings.json",
+              "RelativeDocumentMoniker": "ServerSide1\\appsettings.json",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\appsettings.json",
+              "RelativeToolTip": "ServerSide1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T14:21:01.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Services\\GameService.cs",
+              "RelativeToolTip": "ServerSide1\\Services\\GameService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:11:50.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Models\\IGameService.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Models\\IGameService.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Models\\IGameService.cs",
+              "RelativeToolTip": "ServerSide1\\Models\\IGameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:10:30.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ServerSide1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T13:23:44.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\P0034732\\Desktop\\Projects\\Learn TESDETDAD\\P1\\ServerSide1\\ServerSide1\\Models\\Game.cs",
+              "RelativeToolTip": "ServerSide1\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T13:19:58.341Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

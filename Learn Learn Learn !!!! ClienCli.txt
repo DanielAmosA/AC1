@@ -1,0 +1,229 @@
+ng new clientSide1
+ng serve
+ng g c game
+ng g s game
+ng g cl game
+ng generate guard auth/role
+
+
+my-angular-project
+│
+├── e2e                         # תיקיית בדיקות קצה-לקצה
+│   ├── src
+│   └── protractor.conf.js
+│
+├── node_modules                # תיקיית מודולים מותקנים
+│
+├── src
+│   ├── app
+│   │   ├── components           # תיקיית קומפוננטות (Components)
+│   │   │   ├── game
+│   │   │   │   ├── game.component.ts
+│   │   │   │   ├── game.component.html
+│   │   │   │   ├── game.component.css
+│   │   │   │   └── game.component.spec.ts
+│   │   │   ├── player
+│   │   │   │   ├── player.component.ts
+│   │   │   │   ├── player.component.html
+│   │   │   │   ├── player.component.css
+│   │   │   │   └── player.component.spec.ts
+│   │   │   └── ...             # קומפוננטות נוספות
+│   │   │
+│   │   ├── services            # תיקיית שירותים (Services)
+│   │   │   ├── game.service.ts
+│   │   │   ├── player.service.ts
+│   │   │   └── ...             # שירותים נוספים
+│   │   │
+│   │   ├── models              # תיקיית מודלים (Models)
+│   │   │   ├── game.model.ts
+│   │   │   ├── player.model.ts
+│   │   │   └── ...             # מודלים נוספים
+│   │   │
+│   │   ├── pipes               # תיקיית פייפים (Pipes)
+│   │   │   ├── custom.pipe.ts
+│   │   │   └── ...             # פייפים נוספים
+│   │   │
+│   │   ├── directives          # תיקיית דיירקטיבות (Directives)
+│   │   │   ├── highlight.directive.ts
+│   │   │   └── ...             # דיירקטיבות נוספות
+│   │   │
+│   │   ├── app.module.ts       # הקובץ שמכיל את המודול הראשי של האפליקציה
+│   │   ├── app.component.ts    # הקומפוננטה הראשית
+│   │   ├── app.component.html  # ה-HTML של הקומפוננטה הראשית
+│   │   └── app.component.css   # ה-CSS של הקומפוננטה הראשית
+│   │
+│   ├── assets                  # תיקיית נכסים (CSS, Images, Fonts)
+│   ├── environments            # תיקיית קבצי ההגדרות של הסביבות (dev, prod)
+│   └── index.html              # קובץ ה-HTML הראשי
+│
+├── angular.json                # קובץ ההגדרות של Angular
+├── package.json                # קובץ המידע על המודולים המותקנים בפרויקט
+└── tsconfig.json               # קובץ הגדרות TypeScript
+
+
+game.model.ts
+
+export interface Game {
+  id: number;
+  name: string;
+  genre: string;
+  price: number;
+}
+
+game.service.ts
+
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Game } from '../models/game.model';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class GameService {
+  private apiUrl = 'http://localhost:5000/api/games';
+
+  constructor(private http: HttpClient) {}
+
+  getGames(): Observable<Game[]> {
+    return this.http.get<Game[]>(this.apiUrl);
+  }
+
+  addGame(game: Game): Observable<Game> {
+    return this.http.post<Game>(this.apiUrl, game);
+  }
+
+  updateGame(game: Game): Observable<Game> {
+    return this.http.put<Game>(`${this.apiUrl}/${game.id}`, game);
+  }
+
+  deleteGame(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.apiUrl}/${id}`);
+  }
+}
+
+
+game-list.component.html
+
+ <div class="game-list">
+      <h1>Game List</h1>
+      <form (ngSubmit)="addGame()">
+        <input [(ngModel)]="newGame.name" name="name" placeholder="Name" required />
+        <input [(ngModel)]="newGame.genre" name="genre" placeholder="Genre" required />
+        <input
+          [(ngModel)]="newGame.price"
+          name="price"
+          type="number"
+          placeholder="Price"
+          required
+        />
+        <button type="submit">Add Game</button>
+      </form>
+
+      <ul>
+        <li *ngFor="let game of games">
+          <input [(ngModel)]="game.name" />
+          <input [(ngModel)]="game.genre" />
+          <input [(ngModel)]="game.price" type="number" />
+          <button (click)="updateGame(game)">Update</button>
+          <button (click)="deleteGame(game.id)">Delete</button>
+        </li>
+      </ul>
+    </div>
+
+game-list.component.ts
+
+import { Component } from '@angular/core';
+import { IGame } from '../../models/IGame.interfaces';
+import { GameService } from '../../services/game.service';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+@Component({
+  selector: 'app-game',
+  imports: [CommonModule,FormsModule],
+  templateUrl: './game.component.html',
+  styleUrl: './game.component.scss'
+})
+export class GameComponent {
+
+  games: IGame[] = [];
+  newGame: IGame = { id: 0, name: '', genre: '', price: 0 };
+
+  constructor(private gameService: GameService) {}
+
+  ngOnInit(): void {
+    this.loadGames();
+  }
+
+  loadGames(): void {
+    this.gameService.getGames().subscribe((data) => (this.games = data));
+  }
+
+  addGame(): void {
+    this.gameService.addGame(this.newGame).subscribe((game) => {
+      this.games.push(game);
+      this.newGame = { id: 0, name: '', genre: '', price: 0 };
+    });
+  }
+
+  updateGame(game: IGame): void {
+    this.gameService.updateGame(game).subscribe(() => this.loadGames());
+  }
+
+  deleteGame(id: number): void {
+    this.gameService.deleteGame(id).subscribe(() => {
+      this.games = this.games.filter((g) => g.id !== id);
+    });
+  }
+}
+
+
+app.component.html
+
+<nav>
+  <a routerLink="/games">Games</a>
+</nav>
+<router-outlet></router-outlet>
+
+app.component.ts
+imports: [RouterOutlet,RouterModule],
+
+app.routes.ts
+
+export const routes: Routes = [
+
+  {
+    path: 'games',
+    loadComponent: () =>
+      import('./components/game/game.component').then((c) => c.GameComponent),
+  },
+  {
+    path: '',
+    redirectTo: '/games',
+    pathMatch: 'full',
+  },
+  {
+    path: '**',
+    redirectTo: '/games',
+  },
+
+
+app.config.ts
+
+import { provideHttpClient, withFetch } from '@angular/common/http';
+
+export const appConfig: ApplicationConfig = {
+  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideClientHydration(),
+    provideHttpClient(withFetch()),
+  ]
+};
+
+angular.json
+
+  "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port": 4200,
+            "open": true
+          },

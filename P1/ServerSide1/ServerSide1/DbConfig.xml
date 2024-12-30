@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DatabaseConfig>
+  <ConnectionString>Server=L1800101334\SQLEXPRESS;Database=DanielAmosDB;Trusted_Connection=True;TrustServerCertificate=True;</ConnectionString>
+</DatabaseConfig>

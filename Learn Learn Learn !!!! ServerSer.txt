@@ -1,0 +1,165 @@
+1 web api core =>
+
+MyProject
+│
+├── Controllers          # תיקיית הבקרים (Controllers) במקרה של MVC
+├── Contracts
+│
+├── Models               # תיקיית המודלים, מכילה את המחלקות שמייצגות את הנתונים
+│   ├── User.cs
+│   ├── Product.cs
+│   └── Order.cs
+│
+├── BL                   # תיקיית הלוגיקה העסקית
+│   ├── UserService.cs
+│   ├── ProductService.cs
+│   └── OrderService.cs
+│
+├── DAL                  # תיקיית הגישה למסדי נתונים
+│   ├── ApplicationDbContext.cs
+│   ├── UserRepository.cs
+│   └── ProductRepository.cs
+│
+├── ORC                  # תיקיית הקוד שעוסקת בהמרה בין האובייקטים למסד נתונים (אם יש)
+│   └── Mappings.cs      # דוגמה למיפוי בין האובייקטים למסד הנתונים
+│
+├── appsettings.json     # קובץ ההגדרות של הפרויקט
+├── Program.cs           # קובץ ההפעלה הראשי של היישום
+└── Startup.cs           # קובץ ההגדרות הראשי של היישום
+
+
+using System.ComponentModel.DataAnnotations;
+
+public class Game
+{
+    [Key]
+    public int Id { get; set; }
+
+    [Required(ErrorMessage = "השם הוא שדה חובה")]  // שדה חובה
+    [StringLength(100, ErrorMessage = "השם יכול להיות עד 100 תווים")]
+    public string Name { get; set; }
+
+    [Required(ErrorMessage = "הז'אנר הוא שדה חובה")]  // שדה חובה
+    [StringLength(50, ErrorMessage = "הז'אנר יכול להיות עד 50 תווים")]
+    public string Genre { get; set; }
+
+    [Required(ErrorMessage = "המחיר הוא שדה חובה")]  // שדה חובה
+    [Range(0, double.MaxValue, ErrorMessage = "המחיר חייב להיות מספר חיובי")]
+    public decimal Price { get; set; }
+}
+
+
+using ServerSide1.Models;
+
+private static List<Game> games = new List<Game>
+{
+    new Game { Id = 1, Name = "The Witcher 3", Genre = "RPG", Price = 49.99M },
+    new Game { Id = 2, Name = "Cyberpunk 2077", Genre = "RPG", Price = 59.99M }
+};
+
+[HttpGet]
+public async Task<IActionResult> Get()
+{
+    return Ok(await Task.FromResult(games));
+}
+
+[HttpPost]
+public async Task<IActionResult> Post(Game game)
+{
+    game.Id = games.Max(g => g.Id) + 1;
+    games.Add(game);
+    return Ok(await Task.FromResult(game));
+}
+
+[HttpPut("{id}")]
+public async Task<IActionResult> Put(int id, Game updatedGame)
+{
+    var game = games.FirstOrDefault(g => g.Id == id);
+    if (game == null)
+    {
+        return NotFound();
+    }
+
+    game.Name = updatedGame.Name;
+    game.Genre = updatedGame.Genre;
+    game.Price = updatedGame.Price;
+
+    return Ok(await Task.FromResult(game));
+}
+
+[HttpDelete("{id}")]
+public async Task<IActionResult> Delete(int id)
+{
+    var game = games.FirstOrDefault(g => g.Id == id);
+    if (game == null)
+    {
+        return NotFound();
+    }
+
+    games.Remove(game);
+
+    return Ok(await Task.FromResult(game));
+}
+
+
+
+
+Models
+
+ public interface IGameService
+ {
+     List<Game> GetGames();
+     Game AddGame(Game game);
+     Game UpdateGame(Game game);
+     void DeleteGame(int id);
+ }
+
+
+Program.cs
+
+builder.Services.AddControllers();
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// Configure Dependency injection
+builder.Services.AddSingleton<IGameService, GameService>();
+
+
+[ApiController]
+[Route("api/[controller]")]
+public class GameController : ControllerBase
+{
+    private readonly IGameService _gameService;
+
+    public GameController(IGameService gameService)
+    {
+        _gameService = gameService;
+    }
+
+    [HttpGet]
+    public IActionResult Get() => Ok(_gameService.GetGames());
+
+    [HttpPost]
+    public IActionResult Post(Game game) => Ok(_gameService.AddGame(game));
+
+    [HttpPut("{id}")]
+    public IActionResult Put(int id, Game game)
+    {
+        if (id != game.Id) return BadRequest();
+        return Ok(_gameService.UpdateGame(game));
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Delete(int id)
+    {
+        _gameService.DeleteGame(id);
+        return NoContent();
+    }
+}
+
+appsettings.json
+
+{
+
+    // Port Section
+    "Urls": "http://localhost:5000",

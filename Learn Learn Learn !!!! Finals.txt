@@ -1,0 +1,23 @@
+Program.cs
+
+builder.Services.AddControllers();
+~~~~~~~~~~~~~~~~~~~~
+
+// Add CORS support
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigins", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200") // כתובת ה-Frontend שלך
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
+
+
+app.UseCors("AllowSpecificOrigins");
+
+~~~~~~~~~~~~~~~~~~~~
+app.UseAuthorization();
+

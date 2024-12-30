@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\edard\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D1\u05D6\u05DB\u05D5\u05EA \u05EA\u05DE\u05E9\u05D5\u05E9\\Git\\Projects\\ADTempAngCore-master\\ADTempAngCore-master\\P1\\ServerSide1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\edard\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D1\u05D6\u05DB\u05D5\u05EA \u05EA\u05DE\u05E9\u05D5\u05E9\\Git\\Projects\\ADTempAngCore-master\\ADTempAngCore-master\\P1\\ServerSide1\\ServerSide1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServerSide1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\edard\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D1\u05D6\u05DB\u05D5\u05EA \u05EA\u05DE\u05E9\u05D5\u05E9\\Git\\Projects\\ADTempAngCore-master\\ADTempAngCore-master\\P1\\ServerSide1\\ServerSide1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServerSide1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 521,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9b96d899-3214-4b6f-a8b9-182d4bc2f76f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\edard\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D1\u05D6\u05DB\u05D5\u05EA \u05EA\u05DE\u05E9\u05D5\u05E9\\Git\\Projects\\ADTempAngCore-master\\ADTempAngCore-master\\P1\\ServerSide1\\ServerSide1\\appsettings.json",
+              "RelativeDocumentMoniker": "ServerSide1\\appsettings.json",
+              "ToolTip": "C:\\Users\\edard\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D1\u05D6\u05DB\u05D5\u05EA \u05EA\u05DE\u05E9\u05D5\u05E9\\Git\\Projects\\ADTempAngCore-master\\ADTempAngCore-master\\P1\\ServerSide1\\ServerSide1\\appsettings.json",
+              "RelativeToolTip": "ServerSide1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T19:58:28.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\edard\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D1\u05D6\u05DB\u05D5\u05EA \u05EA\u05DE\u05E9\u05D5\u05E9\\Git\\Projects\\ADTempAngCore-master\\ADTempAngCore-master\\P1\\ServerSide1\\ServerSide1\\Program.cs",
+              "RelativeDocumentMoniker": "ServerSide1\\Program.cs",
+              "ToolTip": "C:\\Users\\edard\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D1\u05D6\u05DB\u05D5\u05EA \u05EA\u05DE\u05E9\u05D5\u05E9\\Git\\Projects\\ADTempAngCore-master\\ADTempAngCore-master\\P1\\ServerSide1\\ServerSide1\\Program.cs",
+              "RelativeToolTip": "ServerSide1\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:57:08.311Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
